@@ -1,0 +1,31 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <ui:Style src="MainMenu.uss" />
+    <ui:VisualElement name="root" class="screen-container" picking-mode="Ignore">
+        
+        <!-- Main Menu Panel -->
+        <ui:VisualElement name="mainMenu" class="menu-panel">
+            <ui:Label text="CYBER NEON" class="title" />
+            <ui:Button name="startButton" text="START GAME" class="menu-button" />
+            <ui:Button name="settingsButton" text="SETTINGS" class="menu-button" />
+            <ui:Button name="exitButton" text="EXIT" class="menu-button" />
+        </ui:VisualElement>
+
+        <!-- Settings Panel -->
+        <ui:VisualElement name="settingsMenu" class="settings-panel">
+            <ui:Label text="SETTINGS" class="title" style="font-size: 32px; margin-bottom: 30px;" />
+            
+            <ui:VisualElement class="settings-row">
+                <ui:Label text="Mute Music" class="settings-label" />
+                <ui:Toggle name="muteToggle" />
+            </ui:VisualElement>
+
+            <ui:VisualElement class="settings-row">
+                <ui:Label text="Graphics Quality" class="settings-label" />
+                <ui:DropdownField name="graphicsDropdown" />
+            </ui:VisualElement>
+
+            <ui:Button name="backButton" text="BACK TO MENU" class="menu-button" style="width: 100%; margin-top: 20px; background-color: #444; color: white;" />
+        </ui:VisualElement>
+
+    </ui:VisualElement>
+</ui:UXML>

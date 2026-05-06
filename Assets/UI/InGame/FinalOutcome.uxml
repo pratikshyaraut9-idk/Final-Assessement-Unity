@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <ui:Style src="FinalOutcome.uss" />
+    <ui:VisualElement class="final-container">
+        <ui:VisualElement class="final-panel">
+            <ui:VisualElement class="home-icon" />
+            <ui:Label text="YOU MADE IT HOME" class="final-title" />
+            <ui:Label name="scoreText" text="Safety Score: 3/3" class="final-score" />
+            <ui:Label name="messageText" text="You've learned valuable night safety behaviors." class="final-message" />
+            <ui:Button name="restartButton" text="PLAY AGAIN" class="restart-button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

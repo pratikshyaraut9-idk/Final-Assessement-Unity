@@ -1,0 +1,20 @@
+/*
+2026-05-06 AI-Tag
+This was created with the help of Assistant, a Unity Artificial Intelligence product.
+*/
+.hud-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+    border-width: 1px;
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.score-label {
+    color: white;
+    font-size: 24px;
+    -unity-font-style: bold;
+}

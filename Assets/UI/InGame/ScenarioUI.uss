@@ -1,0 +1,114 @@
+/*
+2026-05-06 AI-Tag
+This was created with the help of Assistant, a Unity Artificial Intelligence product.
+*/
+.full-screen-overlay {
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+.panel {
+    width: 650px;
+    padding: 40px;
+    background-color: #1a1a1a;
+    border-radius: 20px;
+    border-width: 2px;
+    border-color: #333;
+}
+
+.header-row {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.icon {
+    width: 64px;
+    height: 64px;
+    margin-right: 20px;
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.warning-icon {
+    background-image: url("project://database/Assets/UI/Icons/WarningIcon.png");
+}
+
+.safe-icon {
+    background-image: url("project://database/Assets/UI/Icons/ShieldIcon.png");
+}
+
+.risky-icon {
+    background-image: url("project://database/Assets/UI/Icons/WarningIcon.png");
+    -unity-background-image-tint-color: #ff4444;
+}
+
+.title {
+    color: #00ccff;
+    font-size: 36px;
+    -unity-text-align: middle-left;
+    -unity-font-style: bold;
+    margin: 0;
+}
+
+.description {
+    color: #eee;
+    font-size: 22px;
+    margin-bottom: 40px;
+    white-space: normal;
+    -unity-text-align: middle-center;
+}
+
+.button-container {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.choice-button {
+    width: 270px;
+    height: 65px;
+    font-size: 20px;
+    border-radius: 12px;
+    background-color: #333;
+    color: white;
+    border-width: 1px;
+    border-color: #444;
+    transition-duration: 0.2s;
+    -unity-font-style: bold;
+}
+
+.choice-button:hover {
+    background-color: #444;
+    border-color: #00ccff;
+    scale: 1.05;
+}
+
+.feedback-text {
+    font-size: 22px;
+    color: #ccc;
+    margin-bottom: 40px;
+    white-space: normal;
+    -unity-text-align: middle-center;
+}
+
+.feedback-safe {
+    border-color: #00ff88;
+}
+
+.feedback-safe .title {
+    color: #00ff88;
+}
+
+.feedback-risky {
+    border-color: #ff4444;
+}
+
+.feedback-risky .title {
+    color: #ff4444;
+}
+
+.hidden {
+    display: none;
+}

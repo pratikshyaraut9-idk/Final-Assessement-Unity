@@ -1,0 +1,112 @@
+/*
+2026-05-06 AI-Tag
+This was created with the help of Assistant, a Unity Artificial Intelligence product.
+*/
+:root {
+    --spacing-md: 16px;
+    --spacing-lg: 32px;
+    --color-bg-overlay: rgba(15, 15, 15, 0.85);
+    --color-panel: rgba(40, 40, 40, 0.95);
+    --color-primary: #00ccff;
+    --color-primary-hover: #00eeff;
+    --color-text: #ffffff;
+    --button-height: 55px;
+    --button-width: 280px;
+    --border-radius: 12px;
+}
+
+.screen-container {
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    background-image: url("project://database/Assets/UI/MainMenu/MenuBackground.png");
+    -unity-background-scale-mode: scale-and-crop;
+}
+
+.menu-panel {
+    background-color: rgba(15, 15, 15, 0.9);
+    padding: 60px;
+    border-radius: var(--border-radius);
+    align-items: center;
+    border-width: 2px;
+    border-color: #00ccff;
+    transition-duration: 0.3s;
+}
+
+.title {
+    font-size: 72px;
+    color: #ffffff;
+    margin-bottom: 50px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    text-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+}
+
+.menu-button {
+    width: var(--button-width);
+    height: var(--button-height);
+    margin-bottom: 20px;
+    background-color: var(--color-primary);
+    color: #050505;
+    font-size: 24px;
+    border-radius: var(--border-radius);
+    -unity-font-style: bold;
+    border-width: 0;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out-back;
+}
+
+.menu-button:hover {
+    background-color: var(--color-primary-hover);
+    scale: 1.1;
+    rotate: 1deg;
+}
+
+.menu-button:active {
+    background-color: #0099cc;
+    scale: 0.95;
+}
+
+.settings-panel {
+    position: absolute;
+    width: 500px;
+    background-color: var(--color-panel);
+    padding: 40px;
+    border-radius: var(--border-radius);
+    border-width: 2px;
+    border-color: rgba(0, 204, 255, 0.3);
+    display: none;
+}
+
+.settings-row {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.03);
+    border-radius: 8px;
+}
+
+.settings-label {
+    color: white;
+    font-size: 20px;
+}
+
+.hidden {
+    display: none;
+    opacity: 0;
+}
+
+/* Customizing UITK built-in elements slightly */
+.unity-toggle__checkmark {
+    width: 24px;
+    height: 24px;
+    background-color: #333;
+    border-radius: 4px;
+}
+
+.unity-base-field__label {
+    color: white;
+    min-width: 120px;
+}

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bb2851f377ef094185b3e6d682e7c17, type: 3}
+  m_Name: Scenario_02_Stranger
+  m_EditorClassIdentifier: Assembly-CSharp::ScenarioData
+  ScenarioTitle: The Stranger
+  Description: A stranger approaches you and offers a 'good time' with some pills.
+    They say it's harmless.
+  ChoiceAText: Say Yes
+  FeedbackA: Risky! Accepting unknown substances from strangers is extremely dangerous
+    and can lead to serious harm.
+  IsSafeA: 0
+  ChoiceBText: Say No & Walk away
+  FeedbackB: Safe choice! Never accept anything from people you don't know, especially
+    in isolated areas.
+  IsSafeB: 1
+  NextSceneName: WalkingHome

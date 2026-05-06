@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <ui:Style src="GameHUD.uss" />
+    <ui:VisualElement class="hud-container">
+        <ui:Label name="scoreLabel" text="Score: 0" class="score-label" />
+    </ui:VisualElement>
+</ui:UXML>

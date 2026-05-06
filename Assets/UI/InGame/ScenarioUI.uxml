@@ -1,0 +1,32 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <ui:Style src="ScenarioUI.uss" />
+    <ui:VisualElement name="overlay" class="full-screen-overlay hidden">
+        
+        <!-- Decision View -->
+        <ui:VisualElement name="decisionPanel" class="panel">
+            <ui:VisualElement class="header-row">
+                <ui:VisualElement name="warningIcon" class="icon warning-icon" />
+                <ui:Label name="scenarioTitle" text="SCENARIO TITLE" class="title" />
+            </ui:VisualElement>
+            
+            <ui:Label name="scenarioDesc" text="What will you do?" class="description" />
+            
+            <ui:VisualElement class="button-container">
+                <ui:Button name="choiceA" text="Choice A" class="choice-button" />
+                <ui:Button name="choiceB" text="Choice B" class="choice-button" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+
+        <!-- Feedback View -->
+        <ui:VisualElement name="feedbackPanel" class="panel hidden">
+            <ui:VisualElement class="header-row">
+                <ui:VisualElement name="resultIcon" class="icon" />
+                <ui:Label text="OUTCOME" class="title" />
+            </ui:VisualElement>
+            
+            <ui:Label name="feedbackDesc" text="Feedback details here..." class="feedback-text" />
+            <ui:Button name="continueButton" text="CONTINUE" class="choice-button" style="width: 100%;" />
+        </ui:VisualElement>
+
+    </ui:VisualElement>
+</ui:UXML>

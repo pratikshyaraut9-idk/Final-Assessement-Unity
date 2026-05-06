@@ -1,0 +1,61 @@
+/*
+2026-05-06 AI-Tag
+This was created with the help of Assistant, a Unity Artificial Intelligence product.
+*/
+.final-container {
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    background-color: #050505;
+}
+
+.final-panel {
+    width: 700px;
+    padding: 50px;
+    background-color: #111;
+    border-radius: 20px;
+    border-width: 3px;
+    border-color: #00ccff;
+    align-items: center;
+}
+
+.home-icon {
+    width: 128px;
+    height: 128px;
+    margin-bottom: 20px;
+    background-image: url("project://database/Assets/UI/Icons/HomeIcon.png");
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.final-title {
+    color: white;
+    font-size: 48px;
+    margin-bottom: 20px;
+    -unity-text-align: middle-center;
+    -unity-font-style: bold;
+}
+
+.final-score {
+    color: #00ffcc;
+    font-size: 64px;
+    margin-bottom: 30px;
+    -unity-text-align: middle-center;
+    -unity-font-style: bold;
+}
+
+.final-message {
+    color: #ccc;
+    font-size: 20px;
+    margin-bottom: 40px;
+    white-space: normal;
+    -unity-text-align: middle-center;
+}
+
+.restart-button {
+    height: 60px;
+    font-size: 24px;
+    border-radius: 12px;
+    background-color: #00ccff;
+    color: black;
+    -unity-font-style: bold;
+}
